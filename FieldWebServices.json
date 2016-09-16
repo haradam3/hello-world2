@@ -316,7 +316,7 @@
 		"method": "POST", 
 		"param_required": [ "project_id" ], 
 		"param_optional": [ "filter_id", "conditions", "offset", "limit", "source_id", "source_type" ]
-	}
+	},
 	{
 		"group": "fieldapi/issues", 
 		"service": "comment", 
