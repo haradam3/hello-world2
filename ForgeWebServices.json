@@ -372,15 +372,6 @@
   },
   {
     "group": "hq",
-    "service": "accounts/{account_id}/companies",
-    "version": "v1",
-    "method": "POST",
-    "param_required": [ "name", "trade" ],
-    "param_optional": [ ],
-    "param_urlSegment": [ "account_id" ]
-  },
-  {
-    "group": "hq",
     "service": "accounts/{account_id}/companies/{company_id}",
     "version": "v1",
     "method": "GET",
