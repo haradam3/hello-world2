@@ -351,15 +351,16 @@
     "param_optional": [ "limit", "offset", "sort", "field" ],
     "param_urlSegment": [ "account_id" ]
   },
-  {
-    "group": "hq",
-    "service": "accounts/{account_id}/projects/{project_id}",
-    "version": "v1",
-    "method": "GET",
-    "param_required": [ ],
-    "param_optional": [ "limit", "offset", "sort", "field" ],
-    "param_urlSegment": [ "account_id", "project_id" ]
-  },
+    {
+        "group": "hq",
+        "service": "accounts/{account_id}/projects/{project_id}",
+        "version": "v1",
+        "method": "GET",
+        "param_required": [ ],
+        "param_optional": [ "limit", "offset", "sort", "field" ],
+        "param_urlSegment": [ "account_id", "project_id" ]
+    },
+
   {
     "group": "hq",
     "service": "accounts/{account_id}/companies",
@@ -384,7 +385,7 @@
     "version": "v1",
     "method": "GET",
     "param_required": [ ],
-    "param_optional": [ "name", "partial", "limit", "offset", "sort", "field" ],
+    "param_optional": [ "name", "trade", "operator", "partial", "limit", "offset", "sort", "field" ],
     "param_urlSegment": [ "account_id" ]
   },
   {
@@ -411,7 +412,7 @@
     "version": "v1",
     "method": "GET",
     "param_required": [ ],
-    "param_optional": [ "e-mail", "name", "company_name", "partial", "operator", "limit", "offset", "sort", "field" ],
+    "param_optional": [ "name", "email",  "company_name", "operator", "partial", "limit", "offset", "sort", "field" ],
     "param_urlSegment": [ "account_id" ]
   },
   {
